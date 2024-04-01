@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ru" data-validate="html">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Cook-Tour">
+  <title>Cook-Tour</title>
+  <link rel="stylesheet" href="css/style.css"><!-- Адаптив под компьютер -->
+  <link rel="stylesheet" href="css/style-tablet.css"> <!-- Адаптив под планшет -->
+  <link rel="stylesheet" href="css/style-phone.css"> <!-- Адаптив под телефон -->
+</head>
+<body>
+  <header data-test="header">
+    <!-- Шапка -->
+    <img class="logo" src="images/logo.png"> <!-- Логотип -->
+    <ul class="menu"><!-- Создание списка для меню -->
+      <li class="part">Гастротуры</li><!-- Элемент списка -->
+      <li class="part">Бронирование</li><!--  -->
+      <li class="part">О нас</li>
+      <li class="part">Отзывы</li>
+      <li class="part">Фотографии</li>
+      <li class="part">Контакты</li>
+      <li class="telephone">8 800 725-32-32</li><!-- Номер телефона -->
+    </ul>
+  </header>
+  <main>
+    <section data-test="hero" class="kavkaz">
+      <!-- Hero -->
+      <h1 class="ktitle">Исследуйте вкусы Кавказа</h1><!-- Заголовок 1 -->
+      <br>
+      <p class="ktext">В сопровождении опытных шеф-поваров вы откроете для себя богатство
+        кавказкой кухни и научитесь готовить традиционные блюда.
+      </p><!-- Текст -->
+      <br>
+      <button class="button">Подробнее о курсе</button><!-- Кнопка -->
+      <br><br><br>
+    </section>
+    <section data-test="events" class="ev">
+      <!-- События -->
+      <h2 class="l">Предстоящие события</h2><!-- Заголовок 2 -->
+      <br>
+      <div class="sob"><!-- Блок для картинок -->
+        <img class="sphoto1" src="images/s1.png"><!-- Картинка -->
+        <img class="sphoto2" src="images/s2.png">
+        <img class="sphoto3" src="images/s3.png">
+      </div>
+      <br>
+      <p class="s4">ПОКАЗАТЬ ВСЕ КУРСЫ ></p><!-- Подпись под этими картинками -->
+    </section>
+    <section data-test="form" class="form">
+      <!-- Форма -->
+      <h2 class = "hc">Задать вопрос</h2><!-- Заголовок 2 -->
+      <p class = "hc">Заполните форму и наш оператор свяжется с вами для консультации.</p>
+      <form class="f"><!-- Создание формы -->
+        <input type="text" class="big" value="Как к вам обращаться?"></input>
+        <br>
+        <input type="text" class="mini" value="Телефон"></input><!-- Поля для ввода инфы -->
+        <input type="text" class="mini" value="Email"></input>
+        <button class="minibutton">Отправить</button><!-- Кнопка формы -->
+        </div>
+      </form>
+      <br><br><br>
+    </section>
+    <section data-test="learning" class="learning">
+      <!-- Обучение -->
+      <h2 class="l">Обучение</h2><!-- Заголовок 2 -->
+      <p class="l">Обучение проводится квалифицированными шеф-поварами, имеющими
+        опыт работы в различных кухнях мира, включая Кавказскую, Крымскую,
+        Индийскую, Европейскую и другие.
+      </p><!-- Текст -->
+      <div class="blockl">
+        <h3 class="l">Программа мастер-классов</h3><!-- Заголовок 3 -->
+          <div class="iblock">
+            <img src="images/icon1.png" class="ologo"><!-- Иконка для текста и сам текст -->
+            <p class="otext">Изучение мировых кулинарных традиций и трендов.</p>
+          </div>
+          <div class="iblock">
+            <img src="images/icon2.png" class="ologo">
+            <p class="otext">Обучение использованию кулинарного оборудования.</p>
+          </div>
+          <div class="iblock">
+            <img src="images/icon3.png" class="ologo">
+            <p class="otext">Семинары по устойчивой кулинарии и пищевой безопасности.</p>
+          </div>
+          <div class="iblock">
+            <img src="images/icon4.png" class="ologo">
+            <p class="otext">Объяснение тонкостей кулинарных процессов.</p>
+          </div>
+      </div>
+    </section>
+    <section data-test="about" class="about">
+      <!-- О нас -->
+      <div class="div-a">
+        <img src="images/about.png" class="img-a">
+      </div>
+      <div class="o-nas"><!-- Блок для наложенного текста -->
+          <h2 class="h2-a">О нас</h2><!-- Заголовок 2 уровня -->
+          <br>
+          <h3 class="h3-a">История компании</h3><!-- Заголовок 3 уровня -->
+          <p class="text-a">Наше кулинарное начало - в 2000 году мы открыли свой первый
+            ресторан, а в 2005 году расширились до кулинарной школы, чтобы 
+            делиться нашей страстью к еде со всем миром.
+          </p><!-- Текст -->
+          <h3 class="h3-a">Наша миссия</h3>
+          <p class="text-a">Погрузить вас в мир гастрономии, научить создавать кулинарные
+            шедевры и открыть секреты шеф-поваров.
+          </p>
+      </div>
+      <br>
+    </section>
+    <section data-test="gallery" class="gallery">
+      <!-- Галерея -->
+      <h2 class="l">Фотогалерея</h2><!-- заголовок 2 уровня -->
+      <p class="l">Добавляйте фото в Instagram с хэштегом #куктур, а также
+        отмечайте нас на фото. Лучшие фотографии украсят этот раздел
+        нашего сайта.
+      </p><!-- Текст -->
+      <div class="photog"><!-- Блок для коллажа -->
+        <img src="images/collazh.png"><!-- Коллаж -->
+      </div>
+      <br><br><br>
+    </section>
+    <section data-test="contacts" class="contacts">
+      <!-- Контакты -->
+      <div class="block-k"><!-- Блок для контактов -->
+        <h2 class="l">Контакты</h2><!-- Заголовок 2 -->
+        <p class="l">Свяжитесь с нами любым удобным для вас способом или приходите
+          к нам в гости. Мы будем рады поделиться увлекательными историями и 
+          подобрать для вас тур.
+        </p><!-- Текст -->
+        <img src="images/mobile.png" class="k-icon">
+        <h3 class="h3-k">Телефон</h3><!-- Заголовок 3 -->
+        <p class="l">+7 983 745-45-45</p><!-- Его значение -->
+        <img src="images/email.png" class="k-icon">
+        <h3 class="h3-k">Email</h3>
+        <p class="l">info@cooktour.com</p>
+        <img src="images/adress.png" class="k-icon">
+        <h3 class="h3-k">Адрес</h3>
+        <p class="l">г. Москва, пр-т Вкуса, д. 114, офис 1071</p>
+      </div>
+      <img src="images/map.png" class="map"><!-- Изображение карты -->
+    </section>
+  </main>
+  <footer data-test="footer">
+    <!-- Подвал -->
+    <img class="flogo" src="images/logo-f.png"> <!-- Логотип -->
+    <ul class="fmenu"><!-- Создание меню -->
+      <li class="fpart">Гастротуры</li><!-- Элемент меню -->
+      <li class="fpart">Бронирование</li>
+      <li class="fpart">О нас</li>
+      <li class="fpart">Отзывы</li>
+      <li class="fpart">Фотографии</li>
+      <li class="fpart">Контакты</li>
+      <li class="ftelephone">8 800 725-32-32</li><!-- Номер телефона -->
+    </ul>
+  </footer>
+    <div class="cs"><!-- Блок для иконок-ссылок на другие соц сети -->
+      <img src="images/vk.png" class="f-icon"><!-- Сама иконка -->
+      <img src="images/ok.png" class="f-icon">
+      <img src="images/rd.png" class="f-icon">
+    </div>
+    <p class="pravila">Правила пользования сайтом</p><!-- Надпись в самом конце сайта -->
+    <br>
+</body>
+</html>

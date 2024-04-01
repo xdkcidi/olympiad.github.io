@@ -1,0 +1,255 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url(../fonts/Montserrat-400.woff2),
+         url(../fonts/Montserrat-500.woff2),
+         url(../fonts/Montserrat-600.woff2),
+         url(../fonts/Montserrat-700.woff2);
+} 
+@font-face {
+    font-family: 'Playfair';
+    src: url(../fonts/Playfair-700.woff2),
+         url(../fonts/Playfair-800.woff2);
+}
+@media (max-width: 768px) {
+    h3 {/* Заголовок 2 уровня */
+        display: none;
+    }
+    header { /* Шапка */
+        display: block;
+        width: 768px;
+        height: 120px;
+        background-image: url(../reference/header-tablet.png);
+    }
+    .logo { /* Логотип */
+        display: none;
+    }
+    .menu { /* Меню */
+        display: none;
+    }
+    .part { /* Пункты меню */
+        display: none;
+    }
+    .telephone { /* Номер телефона в меню */
+        display: none;
+    }
+    .kavkaz {/* Промо-блок */
+        width: 768px;
+        height: 440px;
+        background-image: url(../reference/hero-tablet.png);
+        background-size: 80%;
+    }
+    .ktitle {/* Заголовок в этом блоке */
+        display: none;
+    }
+    .ktext {/* Текст в данном блоке */
+        display: none;
+    }
+    button {/* Кнопка */
+        display: none;
+    }
+    .ev {/* Блок событий */
+        width: 768px;
+        height: 550px;
+        padding: 60px 10px 6px 10px;
+        background-color: hsl(44, 83%, 93%);
+    }
+    .sob {/* Блок для карточек и подписи */
+        width: 100%;
+        height: 350px;
+        gap: 30px;
+        display: flex;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .sphoto1 {/*  Сами карточки */
+        display: inline-block;
+        width: 325px;
+        height: 350px;
+        justify-content: space-between;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    .sphoto2 {
+        display: inline-block;
+        width: 325px;
+        height: 350px;
+        justify-content: space-between;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    .sphoto3 {/*  Сами карточки */
+        display: none;
+    }
+    .s4 {/* Подпись */
+        font-family: 'Montserrat';
+        color: #d46d22;
+        text-align: center;
+        font-weight: 700;
+        margin-left: 200px;
+    }
+    .form {/* Блок для формы */
+        display: block;
+        justify-content: center;
+        width: 768px;
+        height: 400px;
+        background-image: url(../reference/form-tablet.png);
+        background-size: 100%;
+        padding-top: 50px;
+    }
+    .hc {/* Располагает элементы в центре */
+        display: none;
+    }
+    .f {/* Сама форма */
+        display: none;
+    }
+    .big {/* Большое поле */
+        display: none;
+    }
+    .mini {/* Маленькие поля */
+        display: none;
+    }
+    .learning {/* Блок обучения */
+        background-color: hsl(44, 83%, 93%);
+        width: 768px;
+        padding: 70px 10px 10px 10px;
+        height: 450px;
+    }
+    .blockl {/* Блок для программы */
+        padding-top: 30px;
+        display: block;
+    }
+    .iblock {/* Блок для элементов программы */
+        display: inline-block;
+        flex-direction: column;
+    }
+    .ologo {/* Иконки к элементам */
+        display: inline-block;
+        width: 24px;
+        height: 27px;
+        gap: 10px;
+        padding: 5px 2px 2px 2px;
+    }
+    .otext {/* Текст элементов */
+        display: inline-block;
+        width: 260px;
+        height: 72px;
+    }
+    .about {/* Блок о нас */
+        width: 768px;
+        height: 550px;
+        padding: 0px 15px 0px 0px;
+        background-image: url(../reference/about-tablet.png);
+    }
+    .img-a {/* Фотография */
+        display: none;
+    }
+    .div-a {/* Блок для этой фотографии */
+        display: none;
+    }
+    .o-nas {/* Блок текста */
+        display: none;
+    }
+    .h2-a {/* Заголовок 2 в этом блоке */
+        display: none;
+    }
+    .h3-a {/* Заголовок 3 в блоке */
+        display: none;
+    }
+    .text-a {/* Текст блока */
+        display: none;
+    }
+    .gallery {/* Блок галлереи */
+        width: 768px;
+        height: 600px;
+        padding-top: 20px;
+        background-color: hsl(44, 83%, 93%);
+    }
+    h2 {/* Настройки для заголовков 2 уровня */
+        height: 30px;
+        font-family: 'Playfair';
+        font-family: 800;
+        font-size: 28px;
+        line-height: 28px;
+        color: #49332f;
+    }
+    .l{/* Настройки для заголовков, текстов */
+        margin-left: 10px;
+        text-align: left;
+    }
+    p {/*  */
+        width: 355px;
+        font-family: 'Montserrat';
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center;
+    }
+    .photog {/* Коллаж */
+        width: 768px;
+        height: 397px;
+        background-image: url(../images/collazh-tablet.png);
+        background-size: 100%;
+    }
+    .photog img{
+        display: none;
+    }
+    .contacts {/* Блок для контактов */
+        display: flex;
+        width: 768px;
+        height: 700px;
+        background-image: url(../reference/contacts-tablet.png);
+    }
+    .block-k {/* Блок для информации */
+        display: none;
+    }
+    .elem-k {/* Блок для группировки элементов */
+        display: none;
+    }
+    .icon-k {/* Иконки к заголовкам */
+        display: none;
+    }
+    .h3-k {/* Заголовки */
+        display: none;
+    }
+    .map {/* Изображение карты */
+        display: none;
+    }
+    footer { /* Подвал */
+        display: block;
+        width: 100%;
+        height: 120px;
+        background-image: url(../reference/footer-tablet.png);
+    }
+    .flogo { /* Логотип подвала */
+        display: none;
+    }
+    .fmenu { /* Меню подвала*/
+        display: none;
+    }
+    .fpart { /* Пункты меню */
+        display: none;
+    }
+    .ftelephone { /* Номер телефона в меню */
+        display: none;
+    }
+    .cs {/* Блок для соц. сетей */
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .f-icon {/* Иконки соц. сетей */
+        width: 40px;
+        height: 40px;
+    }
+    .pravila {/* Надпись в конце сайта */
+        width: 100%;
+        height: 16px;
+        font-family: 'Montserrat';
+        font-weight: 400;
+        font-size: 12px;
+        text-align: center;
+    }  
+}
